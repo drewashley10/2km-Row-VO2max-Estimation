@@ -202,10 +202,10 @@ document.getElementById("bmiOut").textContent = bmi.toFixed(1);
 
 /* ===== VO2max EQUATION (CORRECTED BMI COEFFICIENT) ===== */
 const vo2max =
-119.285
-- (0.075 * tSec)
-- (9.199 * sex)
-- (1.161 * bmi);
+131.536
+- (0.083 * tSec)
+- (7.921 * sex)
+- (1.466 * bmi);
 
 document.getElementById("output").textContent =
 vo2max.toFixed(2) + " ml·kg⁻¹·min⁻¹";
